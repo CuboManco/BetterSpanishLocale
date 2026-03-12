@@ -56,7 +56,7 @@ Vales:
 - Los cambios de la tienda ahora siempre se llaman renovaciones
 - Renombrado «Sticker» a «Pegatina»
 - (Español de España) El multiplicador de multi ahora siempre usa una X mayúscula (x1.25 &rarr; X1.25)
-- (Español de España) Los símbolos de dólar ahora están al final (\$20 &rarr; 20&thinsp;\$)
+- (Español de España) Los símbolos de dólar ahora están al final (<span>$</span>20 &rarr; 20&thinsp;<span>$</span>)
 - Subsanados otros errores menores varios (acentos, comas, etc.)
 
 ## Paquete de texturas
