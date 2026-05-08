@@ -8,10 +8,7 @@ return {
             alt_tex_better_esp_joker_MX = {
                 name = "{C:attention}Comodines{}",
             },
-            alt_tex_better_esp_tarot_ES = {
-                name = "Cartas de {C:tarot}tarot{}",
-            },
-            alt_tex_better_esp_tarot_MX = {
+            alt_tex_better_esp_tarot = {
                 name = "Cartas de {C:tarot}tarot{}",
             },
             alt_tex_better_esp_planet = {

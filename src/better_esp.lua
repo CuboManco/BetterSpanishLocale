@@ -77,19 +77,11 @@ else
         original_sheet = true,
     })
 
-    -- Tarot cards (ES)
+    -- Tarot cards
     AltTexture({
-        key = "better_esp_tarot_ES",
+        key = "better_esp_tarot",
         set = "Tarot",
-        path = "Tarots_ES.png",
-        original_sheet = true,
-    })
-
-    -- Tarot cards (MX)
-    AltTexture({
-        key = "better_esp_tarot_MX",
-        set = "Tarot",
-        path = "Tarots_MX.png",
+        path = "Tarots.png",
         original_sheet = true,
     })
 
@@ -97,7 +89,7 @@ else
     AltTexture({
         key = "better_esp_planet",
         set = "Planet",
-        path = "Tarots_ES.png",
+        path = "Tarots.png",
         original_sheet = true,
     })
 
@@ -105,7 +97,7 @@ else
     AltTexture({
         key = "better_esp_spectral",
         set = "Spectral",
-        path = "Tarots_ES.png",
+        path = "Tarots.png",
         original_sheet = true,
     })
 
@@ -135,7 +127,7 @@ else
         key = "better_esp_pack_ES",
         textures = {
             "better_esp_joker_ES",
-            "better_esp_tarot_ES",
+            "better_esp_tarot",
             "better_esp_planet",
             "better_esp_spectral",
             "better_esp_blind",
@@ -148,7 +140,7 @@ else
         key = "better_esp_pack_MX",
         textures = {
             "better_esp_joker_MX",
-            "better_esp_tarot_MX",
+            "better_esp_tarot",
             "better_esp_planet",
             "better_esp_spectral",
             "better_esp_blind",
