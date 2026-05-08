@@ -1345,13 +1345,13 @@ return {
                     "{C:inactive}({C:attention}#2#{C:inactive} restantes)",
                 },
             },
-            -- Mistake: negro -> morado
+            -- Mistake: negro -> morado ; Para -> para
             -- Consistency: Pegatina
             purple_sticker={
                 name="Pegatina morada",
                 text={
                     "Usaste este comodín",
-                    "Para ganar en la dificultad",
+                    "para ganar en la dificultad",
                     "{C:attention}Pozo morado{}",
                 },
             },
