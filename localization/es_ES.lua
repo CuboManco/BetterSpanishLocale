@@ -1984,7 +1984,7 @@ return {
                 name="Excedente de renovaciones",
                 text={
                     "Las renovaciones cuestan",
-                    "{C:money}m#1#{s:0.6} {C:money}${} menos",
+                    "{C:money}#1#{s:0.6} {C:money}${} menos",
                 },
             },
             -- Consistency: $
