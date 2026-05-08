@@ -1761,6 +1761,14 @@ return {
                     "{C:attention}#2#",
                 },
             },
+            -- Consistency: $
+            c_hermit={
+                name="El ermitaño",
+                text={
+                    "Duplica el dinero",
+                    "{C:inactive}(Máx. de {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                },
+            },
             -- Consistency: formatting
             c_magician={
                 name="El mago",
