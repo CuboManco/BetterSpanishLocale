@@ -1766,7 +1766,7 @@ return {
                 name="El ermitaño",
                 text={
                     "Duplica el dinero",
-                    "{C:inactive}(Máx. de {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Máx. de {C:money}#1#{s:0.6} {C:money}${}{C:inactive})",
                 },
             },
             -- Consistency: formatting
