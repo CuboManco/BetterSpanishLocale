@@ -63,8 +63,8 @@ return {
                 name="Baraja verde",
                 text={
                     "Al final de cada ronda:",
-                    "{C:money}#1#{s:0.6} {C:money}${}{s:0.85} por cada {C:blue}mano restante",
-                    "{C:money}#2#{s:0.6} {C:money}${}{s:0.85} por cada {C:red}descarte restante",
+                    "{C:money}#1#····${}{s:0.85} por cada {C:blue}mano restante",
+                    "{C:money}#2#····${}{s:0.85} por cada {C:red}descarte restante",
                     "No ganas {C:attention}interés",
                 },
             },
@@ -73,7 +73,7 @@ return {
                 name="Baraja amarilla",
                 text={
                     "Comienza con",
-                    "{C:money}#1#{s:0.6} {C:money}${} extra",
+                    "{C:money}#1#····${} extra",
                 },
             }
         },
@@ -83,14 +83,14 @@ return {
                 name="El buey",
                 text={
                     "Si se juega 1 #1#,",
-                    "deja el dinero en 0{s:0.6} {}$",
+                    "deja el dinero en 0····$",
                 },
             },
             -- Consistency: $
             bl_tooth={
                 name="El diente",
                 text={
-                    "Pierde 1{s:0.6} {}$",
+                    "Pierde 1····$",
                     "por carta jugada",
                 },
             },
@@ -123,7 +123,7 @@ return {
             m_gold={
                 name="Carta de oro",
                 text={
-                    "{C:money}3{s:0.6} {C:money}${} si esta",
+                    "{C:money}3····${} si esta",
                     "carta está en tu mano",
                     "al final de la ronda",
                 },
@@ -135,7 +135,7 @@ return {
                     "Probabilidad de {C:green}#1# entre #3#{}",
                     "de {C:mult}+#2#{} multi",
                     "Probabilidad de {C:green}#1# entre #5#{}",
-                    "de ganar {C:money}#4#{s:0.6} {C:money}${}",
+                    "de ganar {C:money}#4#····${}",
                 },
             },
         },
@@ -207,7 +207,7 @@ return {
                 name="Botas",
                 text={
                     "{C:mult}+#1#{} de multi por cada",
-                    "{C:money}#2#{s:0.6} {C:money}${} que tengas",
+                    "{C:money}#2#····${} que tengas",
                     "{C:inactive}(Actual: {C:mult}+#3#{C:inactive} de multi)",
                 },
                 unlock={
@@ -232,7 +232,7 @@ return {
                 name="Toro",
                 text={
                     "{C:chips}+#1#{} fichas",
-                    "por cada {C:money}1{s:0.6} {C:money}${} que tengas",
+                    "por cada {C:money}1····${} que tengas",
                     "{C:inactive}(Actual: {C:chips}+#2#{C:inactive} fichas)",
                 },
             },
@@ -242,7 +242,7 @@ return {
                 text={
                     "Las cartas de {C:attention}figuras{} tienen",
                     "una probabilidad de {C:green}#1# entre #2#{}",
-                    "de otorgar {C:money}2{s:0.6} {C:money}${} cuando anotan",
+                    "de otorgar {C:money}2····${} cuando anotan",
                 },
             },
             -- Consistency: Actual, Xmult
@@ -363,10 +363,10 @@ return {
             j_cloud_9={
                 name="En las nubes",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} por cada",
+                    "Gana {C:money}#1#····${} por cada",
                     "{C:attention}9{} en tu {C:attention}baraja completa",
                     "al final de la ronda",
-                    "{C:inactive}(Actual: {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Actual: {C:money}#2#····${}{C:inactive})",
                 },
             },
             -- Consistency: Xmult
@@ -402,14 +402,14 @@ return {
                 name="Tarjeta de crédito",
                 text={
                     "Adquiere hasta",
-                    "{C:red}-#1#{s:0.6} {C:red}${} de deuda",
+                    "{C:red}-#1#····${} de deuda",
                 },
             },
             -- Consistency: $
             j_delayed_grat={
                 name="Satisfacción retrasada",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} por {C:attention}descarte{}",
+                    "Gana {C:money}#1#····${} por {C:attention}descarte{}",
                     "si no se usó ninguno",
                     "al final de la ronda",
                 },
@@ -484,7 +484,7 @@ return {
             j_egg={
                 name="Huevo",
                 text={
-                    "Aumenta en {C:money}#1#{s:0.6} {C:money}${}",
+                    "Aumenta en {C:money}#1#····${}",
                     "su {C:attention}valor de venta{}",
                     "al final de la ronda",
                 },
@@ -493,7 +493,7 @@ return {
             j_faceless={
                 name="Comodín sin cara",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} si {C:attention}#2#{}",
+                    "Gana {C:money}#1#····${} si {C:attention}#2#{}",
                     "o más {C:attention}cartas de figuras{}",
                     "se descartan",
                     "al mismo tiempo",
@@ -553,7 +553,7 @@ return {
             j_gift={
                 name="Tarjeta de regalo",
                 text={
-                    "Agrega {C:money}#1#{s:0.6} {C:money}${} al {C:attention}valor de venta",
+                    "Agrega {C:money}#1#····${} al {C:attention}valor de venta",
                     "a cada {C:attention}comodín{} y",
                     "carta {C:attention}consumible{}",
                     "al final de la ronda",
@@ -581,7 +581,7 @@ return {
             j_golden={
                 name="Comodín dorado",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${}",
+                    "Gana {C:money}#1#····${}",
                     "al final de la ronda",
                 },
             },
@@ -752,7 +752,7 @@ return {
             j_mail={
                 name="Reembolso por correo",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} por cada",
+                    "Gana {C:money}#1#····${} por cada",
                     "{C:attention}#2#{} que descartes, la categoría",
                     "cambia en cada ronda",
                 },
@@ -761,7 +761,7 @@ return {
             j_matador={
                 name="Torero",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} si la mano",
+                    "Gana {C:money}#1#····${} si la mano",
                     "jugada activa la",
                     "habilidad de la {C:attention}ciega jefe{}",
                 },
@@ -866,7 +866,7 @@ return {
                     "Cada carta de {C:attention}figura{}",
                     "en tu mano tiene",
                     "una probabilidad de {C:green}#2# entre #3#{}",
-                    "de otorgar {C:money}#1#{s:0.6} {C:money}${}",
+                    "de otorgar {C:money}#1#····${}",
                 },
             },
             -- Mistake: Extra space
@@ -897,8 +897,8 @@ return {
             j_rocket={
                 name="Cohete",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} al final de la ronda",
-                    "El pago aumenta en {C:money}#2#{s:0.6} {C:money}${}",
+                    "Gana {C:money}#1#····${} al final de la ronda",
+                    "El pago aumenta en {C:money}#2#····${}",
                     "al derrotar a la {C:attention}ciega jefe{}",
                 },
             },
@@ -907,7 +907,7 @@ return {
             j_rough_gem={
                 name="Gema en bruto",
                 text={
-                    "{C:money}#1#{s:0.6} {C:money}${} por cada",
+                    "{C:money}#1#····${} por cada",
                     "carta jugada con el palo",
                     "de {C:diamonds}diamantes{} cuando anota",
                 },
@@ -931,13 +931,13 @@ return {
             j_satellite={
                 name="Satélite",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} al final de",
+                    "Gana {C:money}#1#····${} al final de",
                     "la ronda por cada carta de {C:planet}planeta",
                     "única usada en esta partida",
-                    "{C:inactive}(Actual: {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Actual: {C:money}#2#····${}{C:inactive})",
                 },
                 unlock={
-                    "Debes tener {E:1,C:money}#1#{s:0.6} {C:money}${}",
+                    "Debes tener {E:1,C:money}#1#····${}",
                     "o más",
                 },
             },
@@ -1047,7 +1047,7 @@ return {
                 name="Billete dorado",
                 text={
                     "Las cartas de {C:attention}oro{} jugadas",
-                    "ganan {C:money}#1#{s:0.6} {C:money}${} cuando anotan",
+                    "ganan {C:money}#1#····${} cuando anotan",
                 },
                 unlock={
                     "Juega una mano de 5 cartas",
@@ -1059,8 +1059,8 @@ return {
             j_to_the_moon={
                 name="Hasta la luna",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} extra",
-                    "de {C:attention}interés{} por cada {C:money}5{s:0.6} {C:money}${}",
+                    "Gana {C:money}#1#····${} extra",
+                    "de {C:attention}interés{} por cada {C:money}5····${}",
                     "que tengas al final de la ronda",
                 },
             },
@@ -1068,7 +1068,7 @@ return {
             j_todo_list={
                 name="Lista de tareas",
                 text={
-                    "Gana {C:money}#1#{s:0.6} {C:money}${} si la {C:attention}mano de póker{}",
+                    "Gana {C:money}#1#····${} si la {C:attention}mano de póker{}",
                     "es 1 {C:attention}#2#{},",
                     "la mano de póker cambia",
                     "al final de la ronda",
@@ -1080,7 +1080,7 @@ return {
                 text={
                     "Si el {C:attention}primer descarte{} de la ronda",
                     "tiene solo {C:attention}1{} carta, destrúyela",
-                    "y gana {C:money}#1#{s:0.6} {C:money}${}",
+                    "y gana {C:money}#1#····${}",
                 },
             },
             -- Consistency: 1
@@ -1153,7 +1153,7 @@ return {
                 text={
                     "Crea una carta de {C:purple}tarot{}",
                     "si se juega una mano",
-                    "con {C:money}#1#{s:0.6} {C:money}${} o menos",
+                    "con {C:money}#1#····${} o menos",
                 },
             },
             -- Mistake: Missing space, rephrasing
@@ -1247,7 +1247,7 @@ return {
             gold_seal={
                 name="Sello de oro",
                 text={
-                    "Gana {C:money}3{s:0.6} {C:money}${} cuando",
+                    "Gana {C:money}3····${} cuando",
                     "se juega esta carta",
                     "y anota",
                 },
@@ -1365,7 +1365,7 @@ return {
             rental={
                 name="De alquiler",
                 text={
-                    "Pierdes {C:money}#1#{s:0.6} {C:money}${}",
+                    "Pierdes {C:money}#1#····${}",
                     "al final de la ronda",
                 },
             },
@@ -1536,7 +1536,7 @@ return {
                 text={
                     "Destruye {C:attention}#1#{} cartas",
                     "de tu mano al azar,",
-                    "gana {C:money}#2#{s:0.6} {C:money}${}",
+                    "gana {C:money}#2#····${}",
                 },
             },
             -- Mistake: Remove "al azar"
@@ -1572,7 +1572,7 @@ return {
                 text={
                     "Genera una carta",
                     "de {C:attention}comodín{} {C:red}rara{} al azar,",
-                    "deja el dinero en {C:money}0{s:0.6} {C:money}${}",
+                    "deja el dinero en {C:money}0····${}",
                 },
             },
         },
@@ -1597,7 +1597,7 @@ return {
                 name="Pozo de oro",
                 text={
                     "En la tienda puede haber comodines {C:attention}de alquiler{}",
-                    "{C:inactive,s:0.8}(Cuestan {C:money,s:0.8}3{s:0.6} {C:money}${}{C:inactive,s:0.8} por ronda)",
+                    "{C:inactive,s:0.8}(Cuestan {C:money,s:0.8}3····${}{C:inactive,s:0.8} por ronda)",
                     "{s:0.8}Se aplican todos los pozos anteriores",
                 },
             },
@@ -1640,7 +1640,7 @@ return {
                 name="Etiqueta D6",
                 text={
                     "Las renovaciones en la tienda siguiente",
-                    "comienzan en {C:money}0{s:0.6} {C:money}${}",
+                    "comienzan en {C:money}0····${}",
                 },
             },
             -- Mistake: Missing space, wording
@@ -1656,18 +1656,18 @@ return {
             tag_garbage={
                 name="Etiqueta de basura",
                 text={
-                    "Otorga {C:money}#1#{s:0.6} {C:money}${} por cada",
+                    "Otorga {C:money}#1#····${} por cada",
                     "{C:red}descarte{} sin usar en esta partida",
-                    "{C:inactive}(Otorgará {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Otorgará {C:money}#2#····${}{C:inactive})",
                 },
             },
             -- Consistency: $
             tag_handy={
                 name="Etiqueta manual",
                 text={
-                    "Otorga {C:money}#1#{s:0.6} {C:money}${} por cada",
+                    "Otorga {C:money}#1#····${} por cada",
                     "{C:blue}mano{} en esta partida",
-                    "{C:inactive}(Otorgará {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Otorgará {C:money}#2#····${}{C:inactive})",
                 },
             },
             -- Mistake: Missing space, wording
@@ -1685,7 +1685,7 @@ return {
                 text={
                     "Después de derrotar",
                     "a la ciega jefe,",
-                    "gana {C:money}#1#{s:0.6} {C:money}${}",
+                    "gana {C:money}#1#····${}",
                 },
             },
             -- Mistake: Missing space, wording
@@ -1718,9 +1718,9 @@ return {
             tag_skip={
                 name="Etiqueta de velocidad",
                 text={
-                    "Otorga {C:money}#1#{s:0.6} {C:money}${} por ciega",
+                    "Otorga {C:money}#1#····${} por ciega",
                     "omitida en esta partida",
-                    "{C:inactive}(Otorgará {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Otorgará {C:money}#2#····${}{C:inactive})",
                 },
             },
             -- Mistake: and it's free
@@ -1766,7 +1766,7 @@ return {
                 name="El ermitaño",
                 text={
                     "Duplica el dinero",
-                    "{C:inactive}(Máx. de {C:money}#1#{s:0.6} {C:money}${}{C:inactive})",
+                    "{C:inactive}(Máx. de {C:money}#1#····${}{C:inactive})",
                 },
             },
             -- Consistency: formatting
@@ -1784,8 +1784,8 @@ return {
                 text={
                     "Otorga el valor total de venta",
                     "de todos los comodines",
-                    "actuales {C:inactive}(Máx. de {C:money}#1#{s:0.6} {C:money}${}{C:inactive})",
-                    "{C:inactive}(Actual: {C:money}#2#{s:0.6} {C:money}${}{C:inactive})",
+                    "actuales {C:inactive}(Máx. de {C:money}#1#····${}{C:inactive})",
+                    "{C:inactive}(Actual: {C:money}#2#····${}{C:inactive})",
                 },
             },
             -- Mistake: General phrasing
@@ -1815,7 +1815,7 @@ return {
                 text={
                     "Renueva la ciega jefe",
                     "{C:attention}1{} vez por apuesta inicial,",
-                    "{C:money}#1#{s:0.6} {C:money}${} por cambio",
+                    "{C:money}#1#····${} por cambio",
                 },
             },
             -- Mistake: times more often
@@ -1879,7 +1879,7 @@ return {
                 text={
                     "Aumenta el límite",
                     "del interés obtenido en cada ronda",
-                    "hasta {C:money}#1#{s:0.6} {C:money}${}",
+                    "hasta {C:money}#1#····${}",
                 },
                 unlock={
                     "Maximiza la ganancia",
@@ -1911,8 +1911,8 @@ return {
                 },
                 unlock={
                     "Gasta un total",
-                    "de {C:money}#1#{s:0.6} {C:money}${} en la tienda",
-                    "{C:inactive}(#2#{s:0.6} {C:inactive}$)",
+                    "de {C:money}#1#····${} en la tienda",
+                    "{C:inactive}(#2#····$)",
                 },
             },
             -- Mistake: added "de"
@@ -1976,7 +1976,7 @@ return {
                 name="Gula de renovaciones",
                 text={
                     "Las renovaciones cuestan",
-                    "{C:money}#1#{s:0.6} {C:money}${} menos",
+                    "{C:money}#1#····${} menos",
                 },
                 unlock={
                     "Renueva la tienda",
@@ -1989,7 +1989,7 @@ return {
                 name="Excedente de renovaciones",
                 text={
                     "Las renovaciones cuestan",
-                    "{C:money}#1#{s:0.6} {C:money}${} menos",
+                    "{C:money}#1#····${} menos",
                 },
             },
             -- Consistency: $
@@ -1998,7 +1998,7 @@ return {
                 text={
                     "Renueva la ciega jefe",
                     "de forma {C:attention}ilimitada{},",
-                    "{C:money}#1#{s:0.6} {C:money}${} por cambio",
+                    "{C:money}#1#····${} por cambio",
                 },
                 unlock={
                     "Descubre",
@@ -2011,7 +2011,7 @@ return {
                 text={
                     "Aumenta el límite",
                     "del interés obtenido en cada ronda",
-                    "hasta {C:money}#1#{s:0.6} {C:money}${}",
+                    "hasta {C:money}#1#····${}",
                 },
             },
             -- Mistake: times more often
@@ -2123,19 +2123,19 @@ return {
         v_text={
             -- Consistency: $
             ch_c_discard_cost={
-                "Cada descarte cuesta {C:money}#1#{s:0.6} {C:money}${}",
+                "Cada descarte cuesta {C:money}#1#····${}",
             },
             -- Consistency: $
             ch_c_inflation={
-                "Eleva los precios en {C:money}1{s:0.6} {C:money}${} para cada compra de forma permanente",
+                "Eleva los precios en {C:money}1····${} para cada compra de forma permanente",
             },
             -- Consistency: $
             ch_c_minus_hand_size_per_X_dollar={
-                "Tienes {C:red}-1{} cartas en la mano por cada {C:money}#1#{s:0.6} {C:money}${} que tengas",
+                "Tienes {C:red}-1{} cartas en la mano por cada {C:money}#1#····${} que tengas",
             },
             -- Consistency: $
             ch_m_dollars={
-                "Empieza con {C:money}#1#{s:0.6} {C:money}$",
+                "Empieza con {C:money}#1#····$",
             },
         },
     },
