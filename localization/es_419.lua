@@ -1744,6 +1744,9 @@ return {
             k_upper_round="Puntuación",
             k_lower_score="de ronda",
 
+            -- Lovely patch: Custom thousands separator
+            thousands_sep="··",
+
             -- Mistake: Wording
             b_wishlist="Añade a tu lista de deseados en Steam",
             -- Consistency: Pegatina

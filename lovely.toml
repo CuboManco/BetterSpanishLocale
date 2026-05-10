@@ -11,20 +11,17 @@ position = "at"
 payload = "text = localize('k_upper_round'), scale = 0.42"
 match_indent = true
 
-# TODO: Doesn't work
-# [[patches]]
-# [patches.regex]
-# target = "functions/misc_functions.lua"
-# pattern = 'gsub\\("\\(%d%d%d\\)", "%1,"\\):gsub\\(",\\$", ""\\)'
-# position = "at"
-# payload = 'gsub("(%d%d%d)", "%1 "):gsub(" $", "")'
-# match_indent = true
-
-# TODO: Also doesn't work
-# [[patches]]
-# [patches.pattern]
-# target = "functions/misc_functions.lua"
-# pattern = 'gsub("(%d%d%d)", "%1,"):gsub(",'
-# position = "at"
-# payload = 'gsub("(%d%d%d)", "%1 "):gsub(" '
-# match_indent = true
+# Localizable thousands separator
+[[patches]]
+[patches.pattern]
+target = "functions/misc_functions.lua"
+pattern = '''
+return sign..(formatted:reverse():gsub("(%d%d%d)", "%1,"):gsub(",$", ""):reverse())'''
+position = "at"
+payload = '''
+sep = localize('thousands_sep')
+repeat
+    formatted, k = formatted:gsub("^(%d+)(%d%d%d)", "%1"..sep.."%2")
+until k == 0
+return sign..formatted'''
+match_indent = true

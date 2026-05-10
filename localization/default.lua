@@ -42,6 +42,7 @@ return {
         dictionary={
             -- Added so translations can replace it
             k_upper_round="Round",
+            thousands_sep=",",
         },
     },
 }

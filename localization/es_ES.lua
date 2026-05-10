@@ -2086,6 +2086,9 @@ return {
             k_upper_round="Puntuación",
             k_lower_score="de ronda",
 
+            -- Lovely patch: Custom thousands separator
+            thousands_sep="··",
+
             -- Mistake: Accent
             b_set_video="Vídeo",
             -- Mistake: Wording
